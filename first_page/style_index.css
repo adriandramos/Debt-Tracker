@@ -1,0 +1,24 @@
+body{
+    background-color: tan;
+}
+#welcome{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.firstPage{
+position: relative;
+text-align: center;
+font-size: xx-large;
+top: 300px; 
+}
+#newUser,
+#returningUser{
+background-color: aliceblue;
+display: inline-block;
+width: 200px; /* Set a fixed width */
+height: 50px; /* Set a fixed height */
+border-radius: 5%;
+margin: 20px;
+font-size: 20px;
+}
+
+/* add hover elements /*
