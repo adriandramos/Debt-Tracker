@@ -1,25 +1,49 @@
-# Debt-Tracker
-Personal Project to implement HTML, CSS, JavaScript, and SQL
+Version 1.0
 
-NOTE: This is Version 1.0 while the logic is implemented some updates need to be made:
-  -Some stying corrections
-  -Bug that makes you double-click on the "create tracker" button before moving on
+*Note: This is the initial version, and some updates are in progress:
 
-General Outline of Project:
-  -Debt-Tracker is a full-stacked project that implements self-learned languages.
-  -Debt-Tracker is an application that allows users to sign up to create trackers for multiple debts. The user will also give each tracker a date "deadline" for when they want to pay off their debt.
-   The application will also allow them to update how much they have paid toward the debt. This will prompt the application to give them a timeline of how much they must pay daily to reach their goal.
+Styling adjustments are pending
+Minor bug: requires double-clicking on the "Create Tracker" button before proceeding
 
-How To Run Application (All Done On Local Host & used SQLite to open with live server):
+*Project Overview:
 
-Step 1: In the terminal cd to "start" and then type " node create_db.mjs"
-Step 2: In the same terminal type " node tracker_create_db.mjs"
-Step 3: Open 3 new terminals:
-        -In each new terminal cd to "start" file
-        -In the first new terminal type "node server.mjs"
-        -In the second new terminal type "node login_server.mjs"
-        -In the last new terminal type "node tracker_server.mjs"
-Step 4: Run "index.html" in the "first_page" folder
+-Debt-Tracker is a full-stack application built using HTML, CSS, JavaScript, and SQL. It allows users to:
+
+-Sign up and create trackers for multiple debts
+
+-Set a target deadline for paying off each debt
+
+-Update payments toward each debt and receive recommendations on how much to pay daily to meet their goals
+
+*Initialize the Databases:
+
+-In the terminal, navigate to the start directory:
+
+cd start
+
+-Run the database setup files:
+
+node create_db.mjs
+
+node tracker_create_db.mjs
+
+*Start the Servers
+
+*Open three new terminal windows and, in each, navigate to the start directory:
+cd start
+
+-In each terminal, start one of the following server files:
+
+Terminal 1: node server.mjs
+
+Terminal 2: node login_server.mjs
+
+Terminal 3: node tracker_server.mjs
+
+Launch the Application
+
+*Open index.html in the first_page folder using a live server to start the application.
+
 
 
 
